@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+
+    <title>Timezones</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock ⏰</h1>
+
+      <select id="city">
+        <option value="">Select a city...</option>
+        <option value="current">My current location</option>
+        <option value="Africa/Timbuktu">Timbuktu</option>
+        <option value="America/North_Dakota/Center">North Dakota 🇺🇸</option>
+        <option value="Asia/Riyadh">Riyadh 🇸🇦</option>
+        <option value="Pacific/Honolulu">Honolulu 🇺🇸</option>
+      </select>
+
+      <div id="cities">
+        <div class="city" id="samoa">
+          <div>
+            <h2>Samoa 🇦🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris 🇫🇷</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="fiji">
+          <div>
+            <h2>Fiji 🇫🇯</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a
+        href="https://github.com/kavancamp/timezone-application"
+        target="_blank"
+        class="footer"
+      >
+        coded by <strong>Keenah VanCampenhout</strong>
+      </a>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
